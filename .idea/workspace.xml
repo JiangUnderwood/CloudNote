@@ -6,558 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe2eb91c-68ae-48e8-b18c-4aafbfb024bb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/conf/appServlet/servlet-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/conf/root-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/ant-1.6.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/asm-4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/aspectjrt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/aspectjweaver-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/avro-1.5.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/avro-ipc-1.5.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/c3p0-0.9.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/cglib-3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/classmate-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-beanutils-1.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-beanutils-core-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-cli-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-codec-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-configuration-1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-digester-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-el-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-httpclient-3.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-lang-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-lang3-3.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-math-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-net-1.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/commons-pool2-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/core-3.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/fastjson-1.1.33.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/geronimo-jta_1.0.1B_spec-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/guava-11.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-annotations-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-annotations-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-auth-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-auth-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-client-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-common-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-common-2.6.0-tests.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-common-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-hdfs-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-hdfs-2.6.0-tests.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-hdfs-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-hdfs-nfs-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-mapreduce-client-app-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-mapreduce-client-app-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-mapreduce-client-common-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-mapreduce-client-common-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-mapreduce-client-core-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-mapreduce-client-core-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-mapreduce-client-hs-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-mapreduce-client-hs-plugins-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-mapreduce-client-jobclient-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-mapreduce-client-jobclient-2.6.0-tests.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-mapreduce-client-jobclient-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-mapreduce-client-shuffle-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-mapreduce-client-shuffle-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-mapreduce-examples-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-nfs-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-api-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-api-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-applications-distributedshell-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-applications-unmanaged-am-launcher-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-client-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-client-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-common-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-common-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-registry-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-server-applicationhistoryservice-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-server-common-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-server-common-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-server-nodemanager-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-server-nodemanager-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-server-resourcemanager-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-server-tests-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hadoop-yarn-server-web-proxy-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-annotations-0.99.2-tests.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-annotations-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-checkstyle-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-client-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-common-0.99.2-tests.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-common-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-examples-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-hadoop-compat-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-hadoop2-compat-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-it-0.99.2-tests.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-it-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-prefix-tree-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-protocol-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-rest-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-server-0.99.2-tests.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-server-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-shell-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-testing-util-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hbase-thrift-0.99.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hibernate-validator-5.1.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/high-scale-lib-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/hsqldb-1.8.0.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/htrace-core-3.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/httpclient-4.3.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/httpcore-4.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jackson-all-1.8.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jackson-core-2.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jackson-core-asl-1.8.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jackson-databind-2.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jackson-jaxrs-1.8.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jackson-mapper-asl-1.8.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jackson-xc-1.8.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jamon-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jasper-compiler-5.5.23.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jasper-runtime-5.5.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jaxb-api-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jaxb-impl-2.2.3-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jedis-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jersey-core-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jersey-json-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jersey-server-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jets3t-0.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jettison-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jetty-6.1.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jetty-util-6.1.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jline-0.9.94.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/joda-time-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jopt-simple-3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jruby-complete-1.6.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/json-lib-2.2.2-jdk13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/json-simple-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jsoup-1.7.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jsp-2.1-6.1.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jsp-api-2.1-6.1.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jsr305-1.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jsse.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/junit-4.10-HBASE-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/libthrift-0.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/lucene-core-3.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/lucene-highlighter-3.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/lucene-memory-3.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/lucene-queries-3.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/mail.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/metrics-annotation-2.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/metrics-core-2.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/mmseg4j-all-1.8.5-with-dic.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/mybatis-paginator-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/mysql-connector-java-5.1.32.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/netty-3.2.4.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/netty-3.6.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/netty-all-4.0.23.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/org.springframework.aop-3.1.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/org.springframework.asm-3.1.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/org.springframework.beans-3.1.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/org.springframework.context-3.1.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/org.springframework.context.support-3.1.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/org.springframework.core-3.1.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/org.springframework.expression-3.1.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/org.springframework.jdbc-3.1.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/org.springframework.transaction-3.1.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/org.springframework.web-3.1.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/org.springframework.web.servlet-3.1.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/oro-2.0.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/pinyin4j-2.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/protobuf-java-2.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/quartz-2.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/slf4j-api-1.7.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/slf4j-log4j12-1.6.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/slf4j-simple-1.6.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/snappy-java-1.0.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/spring-aop-4.0.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/spring-aspects-4.0.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/spring-beans-4.0.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/spring-context-4.0.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/spring-context-support-4.0.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/spring-core-4.0.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/spring-expression-4.0.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/spring-jdbc-4.0.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/spring-tx-4.0.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/spring-web-4.0.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/spring-webmvc-4.0.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/stax-api-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/velocity-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/xmlenc-0.52.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/zkclient-0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/lib/zookeeper-3.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/view/active/activity.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/view/active/activity_detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/view/error/404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/view/error/500.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/view/login/Copy of login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/view/login/backup.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/view/login/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/view/login/login2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/view/login/login3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/view/note/inotecenter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/02e7cce7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/20f4ba23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/663ffc1b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/67b4ad50.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/71fec3d9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/72297351.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/7ac21bf4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/84f03692.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/964b896a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/a1a70e40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/a88d3aa3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/aa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/cccccc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/d984692a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/e5ea2639.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/index_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/index_bg_mac_iphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/page3/0408f819.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/page3/1875d44e.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/page3/b58ec580.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/page3/cloud_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/page3/computer_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/page3/d984692a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/page3/download_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/page3/e5ea2639.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/page3/explore_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/page3/rlog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/page3/synchronous_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/page3/top_bg_compress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/rlog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/images/zhuce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/5c4da2bd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/67b4ad50.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/BaseValues.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/jsp/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/jsp/demo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/jsp/file_manager_json.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/jsp/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/jsp/lib/commons-io-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/jsp/lib/json_simple-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/jsp/upload_json.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/kindeditor-all-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/kindeditor-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/kindeditor-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/kindeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/lang/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/lang/zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/anchor/anchor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/autoheight/autoheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/baidumap/baidumap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/baidumap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/baidumap/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/clearhtml/clearhtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/code/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/code/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/code/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/emoticons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/100.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/101.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/102.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/103.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/104.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/105.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/106.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/107.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/108.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/109.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/110.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/111.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/112.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/113.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/114.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/115.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/116.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/117.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/118.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/119.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/120.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/121.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/122.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/123.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/124.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/125.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/126.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/127.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/128.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/129.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/130.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/131.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/132.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/133.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/134.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/72.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/73.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/74.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/75.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/76.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/77.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/78.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/79.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/80.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/81.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/82.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/83.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/84.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/85.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/86.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/87.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/88.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/89.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/90.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/91.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/92.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/93.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/94.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/95.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/96.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/97.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/98.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/99.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/emoticons/images/static.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/filemanager/filemanager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/filemanager/images/file-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/filemanager/images/file-64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/filemanager/images/folder-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/filemanager/images/folder-64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/filemanager/images/go-up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/flash/flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/image/images/align_left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/image/images/align_right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/image/images/align_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/image/images/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/insertfile/insertfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/lineheight/lineheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/link/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/map/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/media/media.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/multiimage/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/multiimage/images/select-files-en.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/multiimage/images/select-files-zh_CN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/multiimage/images/swfupload.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/multiimage/multiimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/pagebreak/pagebreak.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/plainpaste/plainpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/preview/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/quickformat/quickformat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/table/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/template/html/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/template/html/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/template/html/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/plugins/wordpaste/wordpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/themes/common/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/themes/common/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/themes/common/flash.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/themes/common/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/themes/common/media.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/themes/common/rm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/themes/default/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/themes/default/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/themes/default/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/themes/qq/editor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/themes/qq/qq.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Editor/themes/simple/simple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/Know.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/jquery.nicescroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/login/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/login/login_callback.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/rlog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/javascripts/run_prettify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/selfcheck/check.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/selfcheck/check.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/selfcheck/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/styles/7ac21bf4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/styles/edit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/styles/icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/styles/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaEEWebApp_Web_exploded/styles/prettify.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/conf/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/conf/appServlet/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/conf/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/conf/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/active/activity.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/active/activity.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/active/activity_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/active/activity_detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/error/404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/error/404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/error/500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/error/500.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/login/Copy of login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/login/Copy of login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/login/backup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/login/backup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/login/login1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/login/login1.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/login/login2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/login/login2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/login/login3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/login/login3.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/note/inotecenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/note/inotecenter.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/7ac21bf4.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/7ac21bf4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/page3/0408f819.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/page3/0408f819.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/BaseValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/BaseValues.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/jsp/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/jsp/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/jsp/demo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/jsp/demo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/jsp/file_manager_json.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/jsp/file_manager_json.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/jsp/upload_json.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/jsp/upload_json.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/kindeditor-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/kindeditor-all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/kindeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/kindeditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/lang/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/lang/ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/lang/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/lang/ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/lang/zh_CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/lang/zh_CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/lang/zh_TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/lang/zh_TW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/license.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/anchor/anchor.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/anchor/anchor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/autoheight/autoheight.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/autoheight/autoheight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/baidumap/baidumap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/baidumap/baidumap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/baidumap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/baidumap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/baidumap/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/baidumap/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/clearhtml/clearhtml.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/clearhtml/clearhtml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/code/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/code/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/code/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/code/prettify.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/code/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/code/prettify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/emoticons/emoticons.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/emoticons/emoticons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/filemanager/filemanager.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/filemanager/filemanager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/flash/flash.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/flash/flash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/image/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/image/image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/insertfile/insertfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/insertfile/insertfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/lineheight/lineheight.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/lineheight/lineheight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/link/link.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/link/link.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/map/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/map/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/map/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/map/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/media/media.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/media/media.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/multiimage/multiimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/multiimage/multiimage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/pagebreak/pagebreak.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/pagebreak/pagebreak.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/plainpaste/plainpaste.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/plainpaste/plainpaste.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/preview/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/preview/preview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/quickformat/quickformat.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/quickformat/quickformat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/table/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/table/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/template/html/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/template/html/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/template/html/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/template/html/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/template/html/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/template/html/3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/template/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/template/template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/plugins/wordpaste/wordpaste.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/plugins/wordpaste/wordpaste.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/themes/default/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/themes/default/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/themes/qq/qq.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/themes/qq/qq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Editor/themes/simple/simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Editor/themes/simple/simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/Know.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/Know.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/login/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/login/login_callback.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/login/login_callback.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/javascripts/rlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/javascripts/rlog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/selfcheck/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/selfcheck/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/7ac21bf4.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/7ac21bf4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/edit.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/edit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/prettify.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/prettify.min.css" afterDir="false" />
+    <list default="true" id="fe2eb91c-68ae-48e8-b18c-4aafbfb024bb" name="Default" comment="提交到GitHub">
+      <change afterPath="$PROJECT_DIR$/src/com/pwc/fkp/login/dao/LoginDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pwc/fkp/login/dao/impl/LoginDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pwc/fkp/login/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pwc/fkp/login/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pwc/fkp/util/RedisTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -568,11 +25,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="servlet-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/conf/appServlet/servlet-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="70" lean-forward="true" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="root-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/conf/root-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -584,8 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/pwc/fkp/login/bean/User.java" />
         <option value="$PROJECT_DIR$/src/com/pwc/fkp/util/Constants.java" />
         <option value="$PROJECT_DIR$/src/com/pwc/fkp/login/controller/LoginController.java" />
@@ -596,6 +80,13 @@
         <option value="$PROJECT_DIR$/src/lucene.properties" />
         <option value="$PROJECT_DIR$/redis.properties" />
         <option value="$PROJECT_DIR$/src/com/pwc/fkp/util/InitStart.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/fkp/login/dao/LoginDao.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/fkp/util/RedisTools.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/fkp/login/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/fkp/login/service/impl/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/fkp/login/dao/impl/LoginDaoImpl.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -642,11 +133,6 @@
               <item name="CloudNote" type="b2602c69:ProjectViewProjectNode" />
               <item name="CloudNote" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CloudNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CloudNote" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -662,9 +148,12 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web" />
     </key>
@@ -795,6 +284,9 @@
       </method>
     </configuration>
   </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -812,7 +304,7 @@
       <workItem from="1525437668068" duration="1168000" />
       <workItem from="1525438868889" duration="2272000" />
       <workItem from="1525653171936" duration="9275000" />
-      <workItem from="1525686145264" duration="245000" />
+      <workItem from="1525686145264" duration="4545000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交工程到本地Git库">
       <created>1525683548153</created>
@@ -835,11 +327,25 @@
       <option name="project" value="LOCAL" />
       <updated>1525684816185</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="提交到GitHub">
+      <created>1525686455619</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525686455619</updated>
+    </task>
+    <task id="LOCAL-00005" summary="提交到GitHub">
+      <created>1525686710824</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525686710825</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20829000" />
+    <option name="totallyTimeSpent" value="25129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,15 +378,15 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32965517" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.74636513" weight="0.42068964" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.4537931" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32965517" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32965517" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33117932" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931034" visible="true" weight="0.28675282" />
       <window_info anchor="bottom" id="SOQL Query" order="7" />
       <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Web" order="2" sideWeight="0.5006896" side_tool="true" weight="0.33117932" />
       <window_info id="Learn" order="2" />
-      <window_info anchor="bottom" id="Log Viewer" order="7" weight="0.5006896" />
+      <window_info anchor="bottom" id="Log Viewer" order="7" weight="0.64298403" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -965,6 +471,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1012,13 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1076,17 +578,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/conf/appServlet/servlet-context.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/fkp/util/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="112">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/fkp/util/InitStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/jedis-2.6.0.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/fkp/login/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/fkp/login/dao/LoginDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/fkp/login/service/impl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/fkp/login/dao/impl/LoginDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="37" />
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/fkp/util/RedisTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="81" column="27" lean-forward="true" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1097,27 +677,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwc/fkp/util/Constants.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/conf/appServlet/servlet-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="20" column="70" lean-forward="true" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis.properties">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwc/fkp/util/InitStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="356">
+          <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
         </state>
       </provider>
     </entry>

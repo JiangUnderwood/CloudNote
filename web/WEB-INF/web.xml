@@ -50,11 +50,11 @@
   </session-config>
   <error-page>
     <error-code>404</error-code>
-    <location>/commons/404.jsp</location>
+    <location>/view/error/404.jsp</location>
   </error-page>
   <error-page>
     <error-code>500</error-code>
-    <location>/commons/500.jsp</location>
+    <location>/view/error/500.jsp</location>
   </error-page>
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
