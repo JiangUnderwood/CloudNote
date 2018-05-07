@@ -5,6 +5,7 @@ package com.pwc.fkp.login.dao;
  * @Date : 07/05/2018 6:17 PM
  */
 public interface LoginDao {
+
     /**
      * 从分布式缓存读取用户信息
      * key = TTSSTU + TTS + sha1(用户名 + 密码)
