@@ -40,7 +40,7 @@ public class InitStart {
             Constants.CONNECTION = ConnectionFactory.createConnection(Constants.CONFIG);
 
             /*------------------lucene配置----------------*/
-            /*InputStream ips2 = loader.getResourceAsStream("lucene.properties");
+            InputStream ips2 = loader.getResourceAsStream("lucene.properties");
             Properties p2 = new Properties();
             p2.load(ips2);
             //文件检索目录
@@ -51,7 +51,7 @@ public class InitStart {
             String lucene_page_count = p2.getProperty("lucene_page_count");
             //初始化luceneFSD
             //Configuration.initFSDir(Constants.LUCENE_DIR);
-            Constants.LUCENE_PAGE_COUNT = Integer.parseInt(lucene_page_count);*/
+            Constants.LUCENE_PAGE_COUNT = Integer.parseInt(lucene_page_count);
 
             /*------------------redis配置----------------*/
             InputStream ips3 = loader.getResourceAsStream("redis.properties");
