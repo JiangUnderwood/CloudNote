@@ -21,7 +21,7 @@ public class LoginController {
 
     @RequestMapping("/showloginpage")
     public String login1(HttpServletRequest request) throws Exception{
-        return "login/login1";
+        return "login/login";
     }
 
     @RequestMapping("/loginNow")
