@@ -1,7 +1,7 @@
 package com.pwc.fkp.util;
 
-import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
+import org.apache.hadoop.hbase.HConstants;
 import org.apache.hadoop.hbase.MasterNotRunningException;
 import org.apache.hadoop.hbase.ZooKeeperConnectionException;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
@@ -34,9 +34,9 @@ public class InitStart {
             //创建配置信息类
             Constants.CONFIG = HBaseConfiguration.create();
             //zookeeper的地址
-            Constants.CONFIG.set("hbase_zookeeper_quorum", hbase_zookeeper_quorum);
+            Constants.CONFIG.set(HConstants.ZOOKEEPER_QUORUM, hbase_zookeeper_quorum);
             //zookeeper的端口
-            Constants.CONFIG.set("hbase_zookeeper_property_clientPort", hbase_zookeeper_property_clientPort);
+            Constants.CONFIG.set(HConstants.ZOOKEEPER_CLIENT_PORT, hbase_zookeeper_property_clientPort);
             Constants.CONNECTION = ConnectionFactory.createConnection(Constants.CONFIG);
 
             /*------------------lucene配置----------------*/
