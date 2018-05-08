@@ -19,20 +19,37 @@ public class LoginController {
 
     private static Logger logger = LoggerFactory.getLogger(LoginController.class);
 
-    @RequestMapping("/showloginpage")
-    public String login1(HttpServletRequest request) throws Exception{
-        return "login/login";
+    /**
+     * @param request
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping("/goHomePage")
+    public String login(HttpServletRequest request)throws Exception{
+
+        return "login/homePage";
+    }
+    @RequestMapping("/showLoginPage")
+    public String login2(HttpServletRequest request)throws Exception{
+
+        return "login/loginPage";
+    }
+    @RequestMapping("/showloginpage3")
+    public String login3(HttpServletRequest request)throws Exception{
+
+        return "login/login3";
     }
 
-    @RequestMapping("/loginNow")
-    public String login (HttpServletRequest request, String loginName, String password){
-        try{
-            if(loginName == null || "".equals(loginName) || password == null || "".equals(password)){
+    @RequestMapping("/loginnow")
+    public String loginin(HttpServletRequest request,String loginName,String password){
+
+        try {
+            if (loginName==null||"".equals(loginName)||password==null||"".equals(password)) {
                 return "error/404";
             }
             request.getSession().setAttribute(Constants.USER_INFO, loginName.trim());
-        }catch (Exception e){
-            logger.error("登录失败 -- 登录用户名：" + loginName + "; " + e);
+        } catch (Exception e) {
+            logger.error("登陆失败：loginName:"+loginName+";",e);
             e.printStackTrace();
         }
 
