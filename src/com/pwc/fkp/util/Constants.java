@@ -47,7 +47,7 @@ public class Constants {
     public static String REDIS_IP;
     public static int REDIS_PORT;
     public static int REDIS_TIMEOUT;
-    public static String REDIS_AUTH;
+    //public static String REDIS_AUTH;
 
     /*user信息*/
     public static final String USER_INFO = "userinfo";
