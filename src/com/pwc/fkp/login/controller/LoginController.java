@@ -24,16 +24,6 @@ public class LoginController {
         return "login/login1";
     }
 
-    @RequestMapping("/showloginpage2")
-    public String login2(HttpServletRequest request) throws Exception{
-        return "login/login2";
-    }
-
-    @RequestMapping("/showloginpage3")
-    public String login3(HttpServletRequest request) throws Exception{
-        return "login/login";
-    }
-
     @RequestMapping("/loginNow")
     public String login (HttpServletRequest request, String loginName, String password){
         try{
