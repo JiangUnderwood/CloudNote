@@ -50,7 +50,9 @@ public class LoginController {
     public String loginin(HttpServletRequest request,String loginName,String password){
 
         try {
-            if (loginName == null || "".equals(loginName) || password == null || "".equals(password) || loginService.login(loginName, password)) {
+            boolean dataIsBlank = loginName == null || "".equals(loginName) || password == null || "".equals(password);
+            boolean passwordIsWrong = !loginService.login(loginName, password);
+            if (dataIsBlank || passwordIsWrong) {
                 return "error/404";
             }
             request.getSession().setAttribute(Constants.USER_INFO, loginName.trim());
