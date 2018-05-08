@@ -1,9 +1,12 @@
 package com.pwc.fkp.login.controller;
 
+import com.pwc.fkp.login.service.LoginService;
 import com.pwc.fkp.util.Constants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
@@ -18,6 +21,9 @@ import javax.servlet.http.HttpServletRequest;
 public class LoginController {
 
     private static Logger logger = LoggerFactory.getLogger(LoginController.class);
+
+    @Autowired
+    private LoginService loginService;
 
     /**
      * @param request
@@ -44,7 +50,7 @@ public class LoginController {
     public String loginin(HttpServletRequest request,String loginName,String password){
 
         try {
-            if (loginName==null||"".equals(loginName)||password==null||"".equals(password)) {
+            if (loginName == null || "".equals(loginName) || password == null || "".equals(password) || loginService.login(loginName, password)) {
                 return "error/404";
             }
             request.getSession().setAttribute(Constants.USER_INFO, loginName.trim());
