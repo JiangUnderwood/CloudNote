@@ -103,7 +103,6 @@ public class RedisTools {
         RedisTools.closeJedis(jedis);
         return null;
     }
-
     public static String get(Jedis jedis, String key) {
         if (jedis.exists(key)) {
             return jedis.get(key);
@@ -111,5 +110,25 @@ public class RedisTools {
         return null;
     }
 
+    /**
+     * 对于存放在redis上的String key ==> List<String> strMembers
+     * 往strMembers的右边追加元素strMember
+     *
+     * @param key
+     * @param strMember
+     * @return
+     */
+    public static Long appendRightList(String key, String strMember) {
+        Jedis jedis = RedisTools.getJedis();
+        Long rpush = jedis.rpush(key, strMember);
+        RedisTools.closeJedis(jedis);
+        return rpush;
+    }
 
+    public static Long deleteValueOfList(String key, int count, String value) {
+        Jedis jedis = RedisTools.getJedis();
+        Long lrem = jedis.lrem(key, count, value);
+        RedisTools.closeJedis(jedis);
+        return lrem;
+    }
 }
