@@ -134,7 +134,7 @@
 					}
 				},
 				error:function(data) {
-					alert("no");
+                    alert("Get no notebook from server!");
 				}
 			});
 });
