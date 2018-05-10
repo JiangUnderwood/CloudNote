@@ -2,7 +2,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
-<%String basePath = request.getContextPath(); %>
+<%
+    String basePath = request.getContextPath();
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -107,16 +109,17 @@
 	<script type="text/javascript" src="<%=basePath%>/javascripts/run_prettify.min.js"></script>
 	<script type="text/javascript" src="<%=basePath%>/javascripts/Editor/kindeditor-min.js"></script>
 	<script type="text/javascript" src="<%=basePath%>/javascripts/Editor/lang/zh_CN.js"></script>
+    <script type="text/javascript" src="<%=basePath%>/javascripts/BaseValues.js"></script>
 	<script type="text/javascript" src="<%=basePath%>/javascripts/index.js"></script>
-	<script type="text/javascript" src="<%=basePath%>/javascripts/BaseValues.js"></script>
 	<script type="text/javascript" >
+        debugger;
 	/**
 			*进入页面之后加载，查询所有笔记
 			*/
 	$(function(){
 			$.ajax({
 				type : "post",
-				url : basePath +"note/getAllNoteBook",
+				url : "<%=basePath%>/note/getAllNoteBook",
 				async : false,
 				dataType : "json",
 				success : function(data) {

@@ -264,12 +264,13 @@ $(function(){
 	$('.panel_can').on('click','.panel_addNoteBook .sure',function(){
 		var title=$('#noteBookTitle').val();
 		var length=check_null(title);
+		debugger;
 		if(length>0){
 			title=formate(title);
 			var flag;
 			$.ajax({
 				type : "post",
-				url : basePath +"note/addNoteBook",
+				url : basePath + "/note/addNoteBook",
 				async : false,
 				dataType : "json",
 				data: {"noteBookName":title},
@@ -284,7 +285,7 @@ $(function(){
 					}
 				},
 				error:function(data) {
-					//alert("no");
+					alert(basePath);
 				}
 			});
 		}
