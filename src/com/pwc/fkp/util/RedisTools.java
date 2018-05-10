@@ -4,6 +4,9 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Redis工具类
  *
@@ -130,5 +133,23 @@ public class RedisTools {
         Long lrem = jedis.lrem(key, count, value);
         RedisTools.closeJedis(jedis);
         return lrem;
+    }
+
+    /**
+     * 从redis获取List<String>
+     *
+     * @param key
+     * @return
+     */
+    public static List<String> getList(String key) {
+        Jedis jedis = RedisTools.getJedis();
+        List<String> values = new ArrayList<>();
+        Long lenth = jedis.llen(key);
+        if (lenth == 0) {
+            return null;
+        }
+        values = jedis.lrange(key, 0, lenth);
+        RedisTools.closeJedis(jedis);
+        return values;
     }
 }

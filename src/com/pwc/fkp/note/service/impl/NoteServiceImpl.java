@@ -2,6 +2,7 @@ package com.pwc.fkp.note.service.impl;
 
 import com.pwc.fkp.note.Dao.HbaseDao;
 import com.pwc.fkp.note.Dao.RedisDao;
+import com.pwc.fkp.note.bean.NoteBook;
 import com.pwc.fkp.note.service.NoteService;
 import com.pwc.fkp.util.Constants;
 import net.sf.json.JSONArray;
@@ -92,7 +93,7 @@ public class NoteServiceImpl implements NoteService {
         return hbaseSaveFlag;
     }
 
-    public boolean deleteNoteBookFromRedis(String oldNoteBookName, String userName, String createTime, int status) {
+    private boolean deleteNoteBookFromRedis(String oldNoteBookName, String userName, String createTime, int status) {
         StringBuffer oldNoteBookStr = new StringBuffer();
         //拼笔记本信息
         oldNoteBookStr
@@ -103,6 +104,24 @@ public class NoteServiceImpl implements NoteService {
                 .append(createTime.trim())
                 .append(Constants.STRING_SEPARATOR)
                 .append(status);
-        return false;
+        return redisDao.deleteNoteBookFromRedis(userName, oldNoteBookStr.toString());
+    }
+
+    @Override
+    public List<NoteBook> getAllNoteBooks(String userName) {
+        List<String> lstStr = redisDao.getNoteBooks(userName);
+        if (lstStr == null) return null;
+        List<NoteBook> noteBooks = new ArrayList<>();
+        for (String str : lstStr) {
+            // '|' 属于特殊字符，需要转义
+            String[] splits = str.split("\\" + Constants.STRING_SEPARATOR);
+            NoteBook book = new NoteBook();
+            book.setRowKey(splits[0]);
+            book.setName(splits[1]);
+            book.setCreateTime(splits[2]);
+            book.setStatus(splits[3]);
+            noteBooks.add(book);
+        }
+        return noteBooks;
     }
 }
