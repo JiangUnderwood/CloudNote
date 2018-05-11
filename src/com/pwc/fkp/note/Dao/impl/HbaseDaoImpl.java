@@ -114,7 +114,6 @@ public class HbaseDaoImpl implements HbaseDao {
     public boolean deleteData(String tableName, String rowKey) {
         Table table = null;
         try {
-            table.setAutoFlushTo(false);
             table = Constants.CONNECTION.getTable(TableName.valueOf(tableName));
             Delete del = new Delete(Bytes.toBytes(rowKey));
             table.delete(del);

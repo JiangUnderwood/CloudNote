@@ -1,4 +1,4 @@
-﻿
+﻿var TimeFn = null;
 // JavaScript Document
 /*
  *处理页面高度
@@ -302,37 +302,40 @@ $(function(){
 	 *ajax请求
 	 */
 	$('.col_1').on('click','.col_middle li',function(){
-		cleanEditor();
-		$(this).siblings()
-			.attr('class','book_list clear_float')
-			.end()
-			.attr('class','check_book clear_float');
-		$('.col_1 .col_bottom .check_bt').attr('class','col_li special');
-		//AJAX
-		$('.col_2').html(noteCan.note_my);
-		$('#addNote').data('noteBookRowKey',$(this));
-		var noteBookRowKey = $(this).data("noteBookRowKey");
-		$.ajax({
-			type : "post",
-			url : basePath +"note/getNoteListByNotebook",
-			async : false,
-			dataType : "json",
-			data: {"rowkey":noteBookRowKey},
-			success : function(data) {
-				//alert(data.allNoteBook);
-				if(data.noteList!=null){
-					var allNoteList = eval(data.noteList);
-					$.each(allNoteList,function(idx,item){ //循环对象取值
-						var title=addNote(item.name);
-						$('#my_note').prepend(title);
-						$('#my_note li:first').data('noteRowKey',item.rowKey);
-	          		 });
-				}
-			},
-			error:function(data) {
-				alert("no");
-			}
-		});
+        clearTimeout(TimeFn);
+        TimeFn = setTimeout(function () {
+            cleanEditor();
+            $(this).siblings()
+                .attr('class', 'book_list clear_float')
+                .end()
+                .attr('class', 'check_book clear_float');
+            $('.col_1 .col_bottom .check_bt').attr('class', 'col_li special');
+            //AJAX
+            $('.col_2').html(noteCan.note_my);
+            $('#addNote').data('noteBookRowKey', $(this));
+            var noteBookRowKey = $(this).data("noteBookRowKey");
+            $.ajax({
+                type: "post",
+                url: basePath + "note/getNoteListByNotebook",
+                async: false,
+                dataType: "json",
+                data: {"rowkey": noteBookRowKey},
+                success: function (data) {
+                    //alert(data.allNoteBook);
+                    if (data.noteList != null) {
+                        var allNoteList = eval(data.noteList);
+                        $.each(allNoteList, function (idx, item) { //循环对象取值
+                            var title = addNote(item.name);
+                            $('#my_note').prepend(title);
+                            $('#my_note li:first').data('noteRowKey', item.rowKey);
+                        });
+                    }
+                },
+                error: function (data) {
+                    alert("没有获取到当前笔记本下有笔记信息。");
+                }
+            });
+        }, 300);
 	});
 	/*
 	 *点击删除笔记本，弹出对话框
@@ -384,6 +387,7 @@ $(function(){
 	 *双击笔记本，弹出修改笔记本名称对话框
 	 */
 	$('.col_1').on('dblclick','.col_middle li',function(){
+        clearTimeout(TimeFn);
 		var dom=$(this);
 		$('.panel_can').html(panelCan.panel_renameNoteBook);
 		show_bg();

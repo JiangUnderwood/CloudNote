@@ -117,6 +117,7 @@ public class NoteController {
             } else {
                 //删除指定用户的笔记本
                 boolean delSuccess = noteService.deleteNoteBook(noteBookName, splits[0], splits[1], 0);
+                map.put("success", delSuccess);
             }
             mv = new ModelAndView(new MappingJacksonJsonView(), map);
         } catch (Exception e) {
