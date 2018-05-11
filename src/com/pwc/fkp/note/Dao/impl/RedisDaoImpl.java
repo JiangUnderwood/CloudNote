@@ -32,7 +32,7 @@ public class RedisDaoImpl implements RedisDao {
      * @return
      */
     @Override
-    public boolean saveNoteBookToRedis(String key, String value) {
+    public boolean saveNoteBook(String key, String value) {
         Long returnSize = RedisTools.appendRightList(key, value);
         return returnSize > 0;
     }
@@ -45,7 +45,7 @@ public class RedisDaoImpl implements RedisDao {
      * @return
      */
     @Override
-    public boolean deleteNoteBookFromRedis(String key, String value) {
+    public boolean deleteNoteBook(String key, String value) {
         Long returnSize = RedisTools.deleteValueOfList(key, 1, value);
         return returnSize > 0;
     }

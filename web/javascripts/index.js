@@ -357,7 +357,7 @@ $(function(){
 		var name = $('.alert_can').data('deleteNoteBook').text();
 		$.ajax({
 			type : "post",
-			url : basePath+"note/deleteNoteBook",
+            url: basePath + "/note/deleteNoteBook",
 			async : false,
 			dataType : "json",
 			data: {"noteBookName":name,"rowKey":rowKey},

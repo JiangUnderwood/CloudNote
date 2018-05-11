@@ -1,9 +1,13 @@
 package com.pwc.fkp.note.Dao.impl;
 
 import com.pwc.fkp.note.Dao.HbaseDao;
+import com.pwc.fkp.note.bean.Note;
 import com.pwc.fkp.util.Constants;
+import com.pwc.fkp.util.JsonUtil;
 import org.apache.hadoop.hbase.TableName;
+import org.apache.hadoop.hbase.client.Get;
 import org.apache.hadoop.hbase.client.Put;
+import org.apache.hadoop.hbase.client.Result;
 import org.apache.hadoop.hbase.client.Table;
 import org.apache.hadoop.hbase.util.Bytes;
 import org.slf4j.Logger;
@@ -70,5 +74,47 @@ public class HbaseDaoImpl implements HbaseDao {
                 e.printStackTrace();
             }
         }
+    }
+
+    /**
+     * 根据笔记本rowKey查询笔记列表
+     *
+     * @param rowKey
+     * @return
+     */
+    @Override
+    public List<Note> queryNoteListByRowKey(String rowKey) {
+        Result notesRst = null;
+        List<Note> notes = null;
+        try {
+            //从hbase连接池中获取笔记本表
+            Table noteBookTable = Constants.CONNECTION.getTable(TableName.valueOf(Constants.NOTEBOOK_TABLE_NAME));
+            Get get = new Get(rowKey.getBytes());
+            notesRst = noteBookTable.get(get);
+            byte[] valueBytes = notesRst.getValue(Constants.NOTEBOOK_FAMILY_NOTEBOOKINFO.getBytes(), Constants.NOTEBOOK_NOTEBOOKINFO_CLU_NOTELIST.getBytes());
+            if (valueBytes != null) {
+                String valueStr = new String(valueBytes);
+                //将g转换为json
+                notes = JsonUtil.convertString2NoteList(valueStr);
+            }
+            noteBookTable.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return notes;
+    }
+
+    /**
+     * 删除数据
+     *
+     * @param tableName 表名
+     * @param rowKey    行键
+     * @return
+     */
+    @Override
+    public boolean deleteData(String tableName, String rowKey) {
+
+
+        return false;
     }
 }

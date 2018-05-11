@@ -10,7 +10,7 @@ public interface RedisDao {
 
     List<String> getNoteBooks(String userName);
 
-    boolean saveNoteBookToRedis(String userName, String noteBookInfo);
+    boolean saveNoteBook(String userName, String noteBookInfo);
 
-    boolean deleteNoteBookFromRedis(String userName, String noteBookInfo);
+    boolean deleteNoteBook(String userName, String noteBookInfo);
 }

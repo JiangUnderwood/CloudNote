@@ -1,5 +1,6 @@
 package com.pwc.fkp.note.controller;
 
+import com.pwc.fkp.note.bean.Note;
 import com.pwc.fkp.note.bean.NoteBook;
 import com.pwc.fkp.note.service.NoteService;
 import com.pwc.fkp.util.Constants;
@@ -88,6 +89,43 @@ public class NoteController {
             logger.error("" + userName + "添加笔记本异常 | 方法：addNoteBook | 参数：noteBookName : " + noteBookName, e);
             e.printStackTrace();
         }
+        return mv;
+    }
+
+    /**
+     * 删除笔记本
+     *
+     * @param request
+     * @param noteBookName 笔记本名称
+     * @param rowKey       hbase中该笔记本的行键
+     * @return
+     */
+    @RequestMapping("/deleteNoteBook")
+    public ModelAndView deleteNoteBook(HttpServletRequest request, String noteBookName, String rowKey) {
+        ModelAndView mv = null;
+        //分割rowKey，获取userName和createTime
+        String[] splits = rowKey.split("\\" + Constants.ROWKEY_SEPARATOR);
+        try {
+            //获取当前笔记本下的笔记信息
+            List<Note> notes = noteService.getNoteListByNoteBook(rowKey);
+            ModelMap map = new ModelMap();
+
+            if (notes != null && notes.size() > 0) {
+                //如果不为空，不允许删除笔记本
+                map.put("success", false);
+                map.put("message", "请先删除名下所有笔记。");
+            } else {
+                //删除指定用户的笔记本
+                boolean delSuccess = noteService.deleteNoteBook(noteBookName, splits[0], splits[1], 0);
+            }
+            mv = new ModelAndView(new MappingJacksonJsonView(), map);
+        } catch (Exception e) {
+            String userName = (String) request.getSession().getAttribute(Constants.USER_INFO);
+            logger.debug("" + userName + "添加笔记本异常 | 方法：deleteNoteBook " +
+                    "| 参数：noteBookName : " + noteBookName + "; rowKey : " + rowKey, e);
+            e.printStackTrace();
+        }
+
         return mv;
     }
 }

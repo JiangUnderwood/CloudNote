@@ -2,6 +2,7 @@ package com.pwc.fkp.note.service.impl;
 
 import com.pwc.fkp.note.Dao.HbaseDao;
 import com.pwc.fkp.note.Dao.RedisDao;
+import com.pwc.fkp.note.bean.Note;
 import com.pwc.fkp.note.bean.NoteBook;
 import com.pwc.fkp.note.service.NoteService;
 import com.pwc.fkp.util.Constants;
@@ -63,7 +64,7 @@ public class NoteServiceImpl implements NoteService {
                 .append(Constants.STRING_SEPARATOR)
                 .append(status);
         //将用户 ==> 笔记本信息保存到redis,用户名为key，笔记本信息为value
-        boolean redisSaveFlag = redisDao.saveNoteBookToRedis(userName, noteBookToStr.toString());
+        boolean redisSaveFlag = redisDao.saveNoteBook(userName, noteBookToStr.toString());
         return redisSaveFlag;
     }
 
@@ -93,6 +94,26 @@ public class NoteServiceImpl implements NoteService {
         return hbaseSaveFlag;
     }
 
+    @Override
+    public boolean deleteNoteBook(String oldNoteBookName, String userName, String createTime, int status) {
+        boolean ifSuccess = false;
+        ifSuccess = deleteNoteBookFromRedis(oldNoteBookName, userName, createTime, status);
+        if (ifSuccess) {
+            try {
+                ifSuccess = deleteNoteBookFromHbase(oldNoteBookName, userName, createTime, status);
+                if (!ifSuccess) {
+                    addNoteBookToRedis(oldNoteBookName, userName, createTime, status);
+                }
+            } catch (Exception e) {
+                addNoteBookToRedis(oldNoteBookName, userName, createTime, status);
+                e.printStackTrace();
+                return false;
+            }
+        }
+
+        return ifSuccess;
+    }
+
     private boolean deleteNoteBookFromRedis(String oldNoteBookName, String userName, String createTime, int status) {
         StringBuffer oldNoteBookStr = new StringBuffer();
         //拼笔记本信息
@@ -104,7 +125,14 @@ public class NoteServiceImpl implements NoteService {
                 .append(createTime.trim())
                 .append(Constants.STRING_SEPARATOR)
                 .append(status);
-        return redisDao.deleteNoteBookFromRedis(userName, oldNoteBookStr.toString());
+        return redisDao.deleteNoteBook(userName, oldNoteBookStr.toString());
+    }
+
+    private boolean deleteNoteBookFromHbase(String oldNoteBookName, String userName, String createTime, int status) {
+        StringBuffer rowKeyBuf = new StringBuffer();
+        //拼笔记本信息
+        rowKeyBuf.append(userName.trim() + Constants.ROWKEY_SEPARATOR + createTime.trim());
+        return hbaseDao.deleteData(Constants.NOTEBOOK_TABLE_NAME, rowKeyBuf.toString());
     }
 
     @Override
@@ -123,5 +151,11 @@ public class NoteServiceImpl implements NoteService {
             noteBooks.add(book);
         }
         return noteBooks;
+    }
+
+    @Override
+    public List<Note> getNoteListByNoteBook(String rowKey) {
+        //根据笔记本的名称从hbase中获取名下笔记列表信息
+        return hbaseDao.queryNoteListByRowKey(rowKey);
     }
 }

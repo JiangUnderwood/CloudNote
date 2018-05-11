@@ -46,7 +46,7 @@
 				</div>
 				<div class="col_middle" style='/*height:550px;*/'>
 					<ul id='noteBookList'>
-						</ul>
+                    </ul>
 				</div>
 				<div class="col_bottom clear_float">
 					<div class="col_li special" style='width:33.3%;' id='activityBt'><i class='icon i_action'></i></div>

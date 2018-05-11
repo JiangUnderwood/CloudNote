@@ -1,6 +1,8 @@
 package com.pwc.fkp.note.Dao;
 
-import java.io.IOException;
+import com.pwc.fkp.note.bean.Note;
+
+import java.util.List;
 
 /**
  * @Author : Frank Jiang
@@ -10,5 +12,7 @@ public interface HbaseDao {
 
     boolean insertData(String tableName, String rowKey, String[][] famQuaVals);
 
+    List<Note> queryNoteListByRowKey(String rowKey);
 
+    boolean deleteData(String tableName, String rowKey);
 }
