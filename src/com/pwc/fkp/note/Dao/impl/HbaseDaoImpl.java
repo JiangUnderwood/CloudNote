@@ -5,10 +5,7 @@ import com.pwc.fkp.note.bean.Note;
 import com.pwc.fkp.util.Constants;
 import com.pwc.fkp.util.JsonUtil;
 import org.apache.hadoop.hbase.TableName;
-import org.apache.hadoop.hbase.client.Get;
-import org.apache.hadoop.hbase.client.Put;
-import org.apache.hadoop.hbase.client.Result;
-import org.apache.hadoop.hbase.client.Table;
+import org.apache.hadoop.hbase.client.*;
 import org.apache.hadoop.hbase.util.Bytes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -68,10 +65,12 @@ public class HbaseDaoImpl implements HbaseDao {
             e.printStackTrace();
             return false;
         } finally {
-            try {
-                table.close();//关闭table
-            } catch (IOException e) {
-                e.printStackTrace();
+            if (table != null) {
+                try {
+                    table.close();//关闭table
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
@@ -113,8 +112,26 @@ public class HbaseDaoImpl implements HbaseDao {
      */
     @Override
     public boolean deleteData(String tableName, String rowKey) {
-
-
-        return false;
+        Table table = null;
+        try {
+            table.setAutoFlushTo(false);
+            table = Constants.CONNECTION.getTable(TableName.valueOf(tableName));
+            Delete del = new Delete(Bytes.toBytes(rowKey));
+            table.delete(del);
+            table.flushCommits();
+            logger.debug("删除数据成功！" + table.getTableDescriptor() + "====" + tableName + "-/-" + rowKey);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        } finally {
+            if (table != null) {
+                try {
+                    table.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 }
