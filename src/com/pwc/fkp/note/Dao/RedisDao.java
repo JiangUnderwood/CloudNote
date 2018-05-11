@@ -13,4 +13,6 @@ public interface RedisDao {
     boolean saveNoteBook(String userName, String noteBookInfo);
 
     boolean deleteNoteBook(String userName, String noteBookInfo);
+
+    boolean updateNoteBook(String userName, String oldNoteBookInfo, String newNoteBookInfo);
 }

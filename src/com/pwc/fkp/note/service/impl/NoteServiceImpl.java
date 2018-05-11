@@ -158,4 +158,56 @@ public class NoteServiceImpl implements NoteService {
         //根据笔记本的名称从hbase中获取名下笔记列表信息
         return hbaseDao.queryNoteListByRowKey(rowKey);
     }
+
+
+    @Override
+    public boolean renameNoteBook(String oldNoteBookName, String newNoteBookName, String userName, String createTime, int status) {
+        boolean updateSuccess = false;
+        updateSuccess = renameNoteBookToRedis(oldNoteBookName, newNoteBookName, userName, createTime, status);
+        if (updateSuccess) {
+            try {
+                updateSuccess = renameNoteBookToHbase(newNoteBookName, userName, createTime, status);
+                if (!updateSuccess) {
+                    renameNoteBookToRedis(newNoteBookName, oldNoteBookName, userName, createTime, status);
+                }
+            } catch (Exception e) {
+                renameNoteBookToRedis(newNoteBookName, oldNoteBookName, userName, createTime, status);
+                e.printStackTrace();
+                return false;
+            }
+        }
+
+        return updateSuccess;
+    }
+
+    private boolean renameNoteBookToRedis(String oldNoteBookName, String newNoteBookName, String userName, String createTime, int status) {
+        StringBuffer newNoteBookBuf = new StringBuffer();
+        //需要新增的信息
+        newNoteBookBuf.append(userName.trim() + Constants.ROWKEY_SEPARATOR
+                + createTime.trim())
+                .append(Constants.STRING_SEPARATOR)
+                .append(newNoteBookName.trim())
+                .append(Constants.STRING_SEPARATOR)
+                .append(createTime.trim())
+                .append(Constants.STRING_SEPARATOR)
+                .append(status);
+
+        StringBuffer oldNoteBookBuf = new StringBuffer();
+        //需要删除的信息
+        oldNoteBookBuf.append(userName.trim() + Constants.ROWKEY_SEPARATOR
+                + createTime.trim())
+                .append(Constants.STRING_SEPARATOR)
+                .append(oldNoteBookName.trim())
+                .append(Constants.STRING_SEPARATOR)
+                .append(createTime.trim())
+                .append(Constants.STRING_SEPARATOR)
+                .append(status);
+
+        return redisDao.updateNoteBook(userName, oldNoteBookBuf.toString(), newNoteBookBuf.toString());
+    }
+
+    private boolean renameNoteBookToHbase(String newNoteBookName, String userName, String createTime, int status) {
+        String rowKey = userName.trim() + Constants.ROWKEY_SEPARATOR + createTime.trim();
+        return hbaseDao.insertData(Constants.NOTEBOOK_TABLE_NAME, rowKey, Constants.NOTEBOOK_FAMILY_NOTEBOOKINFO, Constants.NOTEBOOK_NOTEBOOKINFO_CLU_NOTEBOOKNAME, newNoteBookName);
+    }
 }

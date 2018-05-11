@@ -12,6 +12,8 @@ public interface HbaseDao {
 
     boolean insertData(String tableName, String rowKey, String[][] famQuaVals);
 
+    boolean insertData(String tableName, String rowKey, String family, String qualifier, String value);
+
     List<Note> queryNoteListByRowKey(String rowKey);
 
     boolean deleteData(String tableName, String rowKey);

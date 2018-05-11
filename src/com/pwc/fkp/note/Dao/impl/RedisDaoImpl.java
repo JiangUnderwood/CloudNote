@@ -4,7 +4,7 @@ import com.pwc.fkp.note.Dao.RedisDao;
 import com.pwc.fkp.util.RedisTools;
 import org.springframework.stereotype.Repository;
 
-import java.util.*;
+import java.util.List;
 
 /**
  * @Author : Frank Jiang
@@ -48,5 +48,24 @@ public class RedisDaoImpl implements RedisDao {
     public boolean deleteNoteBook(String key, String value) {
         Long returnSize = RedisTools.deleteValueOfList(key, 1, value);
         return returnSize > 0;
+    }
+
+    /**
+     * 更新笔记本到redis
+     *
+     * @param userName
+     * @param oldNoteBookInfo 旧笔记本信息
+     * @param newNoteBookInfo 新笔记本信息
+     * @return
+     */
+    @Override
+    public boolean updateNoteBook(String userName, String oldNoteBookInfo, String newNoteBookInfo) {
+        Long delResult = RedisTools.deleteValueOfList(userName, 1, oldNoteBookInfo);
+        if (delResult > 0) {
+            delResult = RedisTools.appendRightList(userName, newNoteBookInfo);
+            return delResult > 0;
+        }
+
+        return false;
     }
 }

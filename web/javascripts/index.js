@@ -408,13 +408,12 @@ $(function(){
 			//AJAX
 			$.ajax({
 				type : "post",
-				url : basePath+"note/updateNoteBook",
+                url: basePath + "/note/updateNoteBook",
 				async : false,
 				dataType : "json",
 				data: {"oldNoteBookName":oldName,"newNoteBookName":title,"rowKey":rowKey},
 				success : function(data) {
-					//alert(data.allNoteBook);
-					flag=data.success;
+                    var flag = data.success;
 					if(flag){
 						$('.alert_can').data('renameNoteBook')
 						.children('.li_title')
@@ -424,7 +423,7 @@ $(function(){
 					}
 				},
 				error:function(data) {
-					alert("no");
+                    alert("修改笔记本名称失败。");
 				}
 			});
 		}

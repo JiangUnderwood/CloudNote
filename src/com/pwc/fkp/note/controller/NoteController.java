@@ -129,4 +129,35 @@ public class NoteController {
 
         return mv;
     }
+
+    /**
+     * 重命名笔记本
+     *
+     * @param request
+     * @param oldNoteBookName 笔记本曾用名
+     * @param newNoteBookName 笔记本新名字
+     * @param rowKey          行键
+     * @return
+     */
+    @RequestMapping("/updateNoteBook")
+    public ModelAndView renameNoteBook(HttpServletRequest request, String oldNoteBookName, String newNoteBookName, String rowKey) {
+        ModelAndView mv = null;
+        //分割rowKey，取userName和createTime
+        String[] splits = rowKey.split("\\" + Constants.ROWKEY_SEPARATOR);
+        try {
+            //重命名笔记本
+            boolean isSuccess = noteService.renameNoteBook(oldNoteBookName, newNoteBookName, splits[0], splits[1], 0);
+            ModelMap map = new ModelMap();
+            map.put("success", isSuccess);
+            mv = new ModelAndView(new MappingJacksonJsonView(), map);
+        } catch (Exception e) {
+            String userName = (String) request.getSession().getAttribute(Constants.USER_INFO);
+            logger.debug("" + userName + "重命名笔记本异常 | 方法：renameNoteBook " +
+                    "| 参数：oldNoteBookName : " + oldNoteBookName + "; " +
+                    "newNoteBookName : " + newNoteBookName + "; " +
+                    "rowKey : " + rowKey, e);
+            e.printStackTrace();
+        }
+        return mv;
+    }
 }

@@ -75,6 +75,32 @@ public class HbaseDaoImpl implements HbaseDao {
         }
     }
 
+    @Override
+    public boolean insertData(String tableName, String rowKey, String family, String qualifier, String value) {
+        Table table = null;
+        try {
+            table = Constants.CONNECTION.getTable(TableName.valueOf(tableName));
+            Put put = new Put(Bytes.toBytes(rowKey));
+            put.add(Bytes.toBytes(family), Bytes.toBytes(qualifier), Bytes.toBytes(value));
+            table.put(put);
+            table.flushCommits();
+            logger.debug("插入数据成功！" + table.getTableDescriptor() + "===="
+                    + tableName + "-/-" + rowKey + "-/-" + family + "-/-" + qualifier + "-/-" + value);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        } finally {
+            if (table != null) {
+                try {
+                    table.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
     /**
      * 根据笔记本rowKey查询笔记列表
      *

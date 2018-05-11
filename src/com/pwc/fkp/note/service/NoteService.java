@@ -18,4 +18,6 @@ public interface NoteService {
     List<Note> getNoteListByNoteBook(String rowKey);
 
     boolean deleteNoteBook(String oldNoteBookName, String userName, String createTime, int status);
+
+    boolean renameNoteBook(String oldNoteBookName, String newNoteBookName, String userName, String createTime, int status);
 }
